@@ -1,0 +1,20 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* 코드 블록 수정: <pre> 제거 대응 */
+div.highlight > code {
+  display: block;
+  white-space: pre;
+  word-wrap: normal;
+  overflow-x: auto;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+}

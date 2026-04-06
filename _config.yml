@@ -8,7 +8,7 @@ encoding: utf-8
 
 lang: ko-KR
 
-remote_theme: "cotes2020/jekyll-theme-chirpy@v5.6.1"
+remote_theme: "cotes2020/jekyll-theme-chirpy@v7.5.0"
 
 plugins:
   - jekyll-remote-theme
@@ -26,7 +26,7 @@ author:
   url: "https://abh0518.github.io"
 
 # Chirpy 테마 설정
-theme_mode: light # light / dark (비워두면 시스템 설정 따름)
+theme_mode: # light / dark (비워두면 시스템 설정 따름)
 
 avatar: /assets/images/2026/04/profile.jpg
 
@@ -36,7 +36,7 @@ toc: true
 search:
   full_content: true
 
-# 소셜 링크 (필요시 설정)
+# 소셜 링크
 social:
   name: 안병현
   email: abh0518@gmail.com
