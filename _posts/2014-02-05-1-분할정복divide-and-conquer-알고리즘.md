@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "1. 분할정복(divide and conquer) 알고리즘"
 date: 2014-02-05 22:20:29 +0900
 categories: [알고리즘]

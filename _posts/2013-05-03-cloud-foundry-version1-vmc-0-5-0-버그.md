@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Cloud Foundry Version1 VMC 0.5.0 버그"
 date: 2013-05-03 10:10:43 +0900
 categories: [IT기타]

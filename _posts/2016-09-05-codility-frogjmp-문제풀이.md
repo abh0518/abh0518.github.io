@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Codility - FrogJmp 문제풀이 (난이도 : 하)"
 date: 2016-09-05 13:28:45 +0900
 categories: [알고리즘]

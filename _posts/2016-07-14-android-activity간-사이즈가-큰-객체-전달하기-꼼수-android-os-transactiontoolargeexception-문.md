@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Android - Intent extras size limit (android.os.TransactionTooLargeException) 문제 회피한 이야기"
 date: 2016-07-14 18:32:23 +0900
 categories: [프로그래밍]

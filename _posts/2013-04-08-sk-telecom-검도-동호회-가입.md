@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "SK Telecom 검도 동호회 가입"
 date: 2013-04-08 21:06:23 +0900
 categories: [건강과 생활체육]

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Python, datetime timezone 삽질 정리"
 date: 2017-03-03 14:51:57 +0900
 categories: [프로그래밍]

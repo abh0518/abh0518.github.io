@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Cloud Foundry Version 2 오픈 3일전, 찾아오는 번뇌..."
 date: 2013-06-07 13:51:18 +0900
 categories: [IT기타]

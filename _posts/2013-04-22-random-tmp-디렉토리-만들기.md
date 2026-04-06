@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Random tmp 디렉토리 만들기"
 date: 2013-04-22 10:58:29 +0900
 categories: [IT기타]

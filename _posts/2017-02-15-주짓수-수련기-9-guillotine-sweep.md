@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "주짓수 수련기 9 – Guillotine Sweep"
 date: 2017-02-15 18:35:48 +0900
 categories: [주짓수]

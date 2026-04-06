@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "조잡 어플리케이션 시리즈 2-1 : Android SMS Tethering Swich Application Upgraded"
 date: 2016-06-03 14:07:41 +0900
 categories: [프로그래밍]

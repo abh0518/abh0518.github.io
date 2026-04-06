@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "조잡 어플리케이션 시리즈 1 :  Android SMS Forward Application"
 date: 2016-05-26 10:43:40 +0900
 categories: [프로그래밍]

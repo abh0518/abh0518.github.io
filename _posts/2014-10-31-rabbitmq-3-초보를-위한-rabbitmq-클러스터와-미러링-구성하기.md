@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "[RabbitMQ] 3. 초보를 위한 RabbitMQ 클러스터와 미러링 구성하기"
 date: 2014-10-31 23:31:11 +0900
 categories: [IT기타]

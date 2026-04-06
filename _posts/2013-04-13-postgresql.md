@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "맥에서 유용한 Postgresql.app 과 pgadmin"
 date: 2013-04-13 16:09:07 +0900
 categories: [IT기타]

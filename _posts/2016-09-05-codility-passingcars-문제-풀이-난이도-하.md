@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Codility - PassingCars 문제 풀이 (난이도 : 하)"
 date: 2016-09-05 15:10:21 +0900
 categories: [알고리즘]

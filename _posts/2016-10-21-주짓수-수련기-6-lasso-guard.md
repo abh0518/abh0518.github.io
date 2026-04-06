@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "주짓수 수련기 6 - Lasso Guard"
 date: 2016-10-21 15:00:38 +0900
 categories: [주짓수]

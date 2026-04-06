@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "주짓수 수련기 4 – Close Guard Pass"
 date: 2016-09-19 17:50:18 +0900
 categories: [주짓수]

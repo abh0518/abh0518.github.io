@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Mac Cisco VPN Timeout 문제 해결"
 date: 2013-07-23 10:45:54 +0900
 categories: [IT기타]

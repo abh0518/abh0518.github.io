@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "아! goddaddy.com 짜증나..."
 date: 2013-10-07 14:25:16 +0900
 categories: [그냥 사는 이야기]

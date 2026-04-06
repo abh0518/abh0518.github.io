@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "주짓수 수련기 7 - Side Mount Escape"
 date: 2016-10-25 15:35:43 +0900
 categories: [주짓수]

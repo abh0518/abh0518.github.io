@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "창피한 이야기 - Database Connection Timezone 설정"
 date: 2018-04-13 15:03:59 +0900
 categories: [프로그래밍]

@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "git log graph 설정"
 date: 2016-11-10 13:48:43 +0900
 categories: [프로그래밍]

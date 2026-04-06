@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "Codility - MaxCounters 문제 풀이 (난이도:중)"
 date: 2016-09-07 16:18:18 +0900
 categories: [알고리즘]
