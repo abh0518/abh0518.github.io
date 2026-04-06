@@ -2,7 +2,44 @@ title: tok
 description: "안병현의 블로그"
 baseurl: ""
 url: ""
-theme: minima
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 encoding: utf-8
+locale: "ko-KR"
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name: "안병현"
+
+paginate: 10
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      read_time: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+    values:
+      layout: default
