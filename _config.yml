@@ -28,7 +28,7 @@ author:
 # Chirpy 테마 설정
 theme_mode: # light / dark (비워두면 시스템 설정 따름)
 
-avatar: # 프로필 이미지 경로 (필요시 설정)
+avatar: /assets/images/2026/04/profile.jpg
 
 toc: true
 
