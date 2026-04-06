@@ -32,6 +32,10 @@ avatar: # 프로필 이미지 경로 (필요시 설정)
 
 toc: true
 
+# 검색
+search:
+  full_content: true
+
 # 소셜 링크 (필요시 설정)
 social:
   name: 안병현
