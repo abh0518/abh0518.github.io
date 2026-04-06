@@ -7,12 +7,15 @@ categories: [프로그래밍]
 
 요즘 Kafka로 들어오는 메세지들을 여러 저장소이 Flush해주는 데몬형태의 Java Web Service를 만들고 있다. 이 놈의 주요 기능중 하나는 Kafka메세지를 선별해서 MySQL에 저장해주는 것이다.
 (그럴거면 스파크를 쓰는게 낫지 않냐 할수 있지만 관리자님께서 이리 하라 시키셨다.)
+
 내가 Java로 Web Application을 개발할 때 고민거리 중 하나는 Database의 Timezone 설정이다. Java의 Date가 Timezone을 원활히(?) 지원하지 않다보니 Database와 Web Application의 Timezone이 다르게 설정된 경우 날짜 데이터가 꼬이기 마련이다. 특히, 그 차이를 무시하고 그냥 사용할 경우 Database의 Timestamp 기능을 사용하여 create\_time 정보를 남기면 헬게이트가 열린다. 어째 내가 Aplication찍은 시간과 Database에서 찍어준 시간이 안맞는 괴이한 현상이 발생한다. 물론 이건 괴이한게 아니라 당연한거다.
 그래서 나는 Web Application과 Database의 Timezone을 항상 동일하게 맞춘다. 그럼 여러 Web Application이 동일하지 않은 Timezone을 사용할 경우 어떻게 할건데? 의문이 생기지만 그럴 경우는 Database 기준으로 시간을 조절하고 내부 로직에서 시간 변경을 하여 처리하면 된다는 식으로 넘어갔다. 아니면 Timestamp를 long type으로 Database에 저장하고 Application에서 자기 타임존에 맞춰 Date 객체로 변환해 쓰는 방식을 사용했다.
 그러다가 최근 AWS로 넘어오면서 문제가 발생했다. AWS RDB서비스에서 MySQL을 사용하는데 Database의 Global Timezone 변경 권한을 주지 않는다. 그냥 UTC로 설정된 MqSQL이 나에게로 넘어왔다.
+
 이걸 어쩌나 하고 심각하고 고민하고 있었는데, 알고보니 Database Timezone은 신경 끄고 DB Connection Session의  Timezone을 Application에 맞춰 설정하면 간단히 해결 되는 문제였다.
 내가 이제 11년차 개발자인데 이걸 여태 몰랐었다니!
 이 간단한걸 몰라 그동안 Database Timezone을 Wab Application과 맞추고 여러 Application에서 사용해야 할 시간 정보는 long type으로 저장해버렸던 지난 내 개뻘짓거리를 생각하니 자괴감이 밀려왔다.
+
 어쨌든 아래와 같은 방법으로 모든 문제가 해결되었다. 그리고 머리 속 깊게 들어온 정신적 치명타는 아직 회복이 되지 않고 있다.
 
 1. Spring Boot + Mysql 5.x 기준 DataSource 설정

@@ -7,7 +7,9 @@ categories: [프로그래밍]
 
 java의 DateTime은 그냥 생성해도 로컬 타임존으로 설정이 되어있어 타임존 변경이 쉬운데 파이썬은 그렇지 않다. (python version 3.5.2 기준)
 그냥 datetime을 생성하면 timezone 정보가 없어 astimezone 같은 메소드를 실행하면 에러가 난다.
+
 장고 어플리케이션 만들다가 타임존 처리를 할게 있었는데 이러한 이유 때문에 은근 삽질을 많이 했다.
+
 결론은 datetime 생성할떄 timezone과 timedeltal를 이용해서 필요한 타임존 설정을 해주면 모든게 해결된다. (근데 귀찮다)
 
 # Sampel Code

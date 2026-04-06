@@ -66,6 +66,7 @@ categories: [프로그래밍]
       ```
    3. Flavor에 맞게 리소스 파일 분리
       app/src 디렉토리 아래에 flavor과 동일한 이름의 디렉토리들을 생성하고 실행 환경에 따른 리소스 파일을 분리한다. main이 기본이고 동일한 구성으로 변경 사항들만 dev, staging, product쪽에 추가해준다. 리소스들은 빌드시 선택된 Flavor값들이 main리소스에 override된다. 대충 아래와 같은 느낌. Flavor 관련 자세한 설명은 구글 문서의 Flavor 항목을 참고하자. (<https://developer.android.com/studio/build/build-variants.html?hl=ko>)
+
       ![app - AndroidBuildSetting - [~:AndroidStudioProjects:AndroidBuildSetting] 2016-06-09 10-35-32](/assets/images/2016/06/app-AndroidBuildSetting-AndroidStudioProjectsAndroidBuildSetting-2016-06-09-10-35-32.png)
 3. 빌드
    1. Android Studio를 사용한다면 Build Variant 메뉴를 사용해서 빌드될 Flavor를 선택할 수 있다.

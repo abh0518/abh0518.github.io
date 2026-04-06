@@ -6,7 +6,9 @@ categories: [알고리즘]
 ---
 
 [LeedCode - Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) 문제풀이 (난이도:중)
+
 Given a string, find the length of the longest substring without repeating characters.
+
 Examples:
 Given "abcabcbb", the answer is "abc", which the length is 3.
 Given "bbbbb", the answer is "b", with the length of 1.

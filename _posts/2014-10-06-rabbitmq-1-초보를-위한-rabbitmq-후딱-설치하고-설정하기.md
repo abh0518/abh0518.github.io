@@ -42,8 +42,12 @@ $>sudo rabbitmqctl set_user_tags rabbitmq administrator
 
 유저 설정까지 끝냈으면 Management Plugin으로 RabbitMQ를 관리해보도록 하자.
 웹브라우저로 http://serverip:15672/  에 접속하면 아래와 같은 화면이 나온다.
+
 ![RabbitMQ Management 2014-10-06 17-59-02](/assets/images/2014/10/RabbitMQ-Management-2014-10-06-17-59-02.jpg)
+
 이제 3번에서 설정한 관리자 id로 접속을 해보자. 로그인에 성공하고 아래와 같은 화면이 나오면 성공!
+
 [![RabbitMQ Management 2014-10-06 18-00-51](/assets/images/2014/10/RabbitMQ-Management-2014-10-06-18-00-51.jpg)](/assets/images/2014/10/RabbitMQ-Management-2014-10-06-18-00-51.jpg)
+
 축하합니다! 기본적인 RabbitMQ의 설치 및 기본 설정을 끝내셨습니다!
 다음 시간엔 서비스용 계정 및 Virtual host 설정 하는 법을 진행해볼까 합니다.
