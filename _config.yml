@@ -26,7 +26,7 @@ author:
   url: "https://abh0518.github.io"
 
 # Chirpy 테마 설정
-theme_mode: # light / dark (비워두면 시스템 설정 따름)
+theme_mode: light # light / dark (비워두면 시스템 설정 따름)
 
 avatar: /assets/images/2026/04/profile.jpg
 
