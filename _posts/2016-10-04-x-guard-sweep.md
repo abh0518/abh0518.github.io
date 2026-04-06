@@ -7,9 +7,12 @@ categories: [주짓수]
 
 본 주짓수 도장에서 배운 X-Guard 후 백으로 넘어가는 것 외에 몇개가 더있어서 퍼옴
 대충 4가지 sweep 방법이 있는듯 하다.
-1. 본 주짓수에서 배운 x가드 후 상대 등으로 넘어가기 영상
+1. 본 주짓수에서 배운 x가드 후 상대 등으로 넘어가기 영상
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/9h4-1pTlESk" frameborder="0" allowfullscreen></iframe>
 2. x가드후 상대를 전방으로 넘어뜨린 후 가드 패스
 3. x가드후 상대를 위쪽으로 넘긴 후 가드 패스
-4. x가드후 상대 등쪽으로 넘기고 가드 패스
+4. x가드후 상대 등쪽으로 넘기고 가드 패스
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/WGRT4lxUeSE" frameborder="0" allowfullscreen></iframe>
 x가드 까지 가는 과정이 좀더 상세히 나온 영상
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HsMB7qWG0wU" frameborder="0" allowfullscreen></iframe>
 연습 부족으로 블루 벨트에게 써먹다가 역공당했던 기술 ㅠ.ㅠ

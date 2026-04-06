@@ -7,4 +7,6 @@ categories: [주짓수]
 
 길로틴 초크 실패시 스윕하여 풀 마운트 상태로 전환하는 방법, 길로틴 자주 실패하는 나에게는 유용한 기술이다.
 도장에서 배운 방식
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wOcPv-IuCPk" frameborder="0" allowfullscreen></iframe>
 음 이건 날아 좀 안맞을듯 한 방법
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWnbswRQkdA" frameborder="0" allowfullscreen></iframe>

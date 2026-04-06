@@ -7,7 +7,17 @@ categories: [주짓수]
 
 내 허리를 단단히 조이는 상대의 강력한 클로즈 가드를 뚫고 들어가자!
 상대의 양 골반을 골반을 잡을 수 있을때 : 양 손으로 상대의 골반을 단단히 고정하고 몸을 틀어 그 힘으로 가드를 부수고 들어간다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MZHOYWZTqNY" frameborder="0" allowfullscreen></iframe>
+
 상대의 겨드랑이를 잡을 수 있을때 : 한쪽 무릎을 상대의 가랑이 사이에 넣어 그 힘으로 가드를 부수고 들어간다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rjmsns6rIzg" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gTQD-TEFMWc" frameborder="0" allowfullscreen></iframe>
+
 상대의 한쪽 팔을 컨트롤 할 수 있을때 상대의 한손을 제압하고 그쪽 방향의 다리를 축으로 일어서 중력의 힘으로 가드를 부수고 들어간다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iSFdAn2j5tM" frameborder="0" allowfullscreen></iframe>
+
 몇가지 변형들이 있는데 위에 것드이 가장 기본적인거 같다.

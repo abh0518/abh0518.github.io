@@ -140,6 +140,7 @@ categories: [프로그래밍]
    None # 아, 망했어요!
    ```
 3. 생각해보면 당연한 일이다. 실행시간에 실제로 접근하는 메타데이터는 func가 아니라 데코레이터가 만들어준 wrapper의 메터데이터니 제대로 나올리가 없다. 그렇다. 우린 망했다.
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/frEm8dftIoI" frameborder="0" allowfullscreen></iframe>
 4. 그렇다고 진짜 망한건 아니다. decorator에 @wraps 달아주면 모든것이 해결된다. 모든 decorator에는 반드시 @wraps를 달아주자. 그것이 모두가 행복해지는 길이다. 이유는 찾아보기 귀찮아서 생략. (대충 소스 보니 func의 \_\_doc\_\_ 같은 meta 정보를 wrapper에 복사해 넣는거 같은데 확실한건 아님!)
 
    ```

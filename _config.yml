@@ -1,4 +1,4 @@
-title: tok
+title: Time of Kairos
 description: "안병현의 블로그"
 baseurl: ""
 url: ""
@@ -19,6 +19,9 @@ plugins:
 
 author:
   name: "안병현"
+
+search: true
+search_full_content: true
 
 paginate: 10
 paginate_path: /page:num/

@@ -10,9 +10,17 @@ categories: [주짓수]
 1. 제일 처음 배운 기본적인 탈출법
    상대와 내 몸 사이 틈을 만들고 엉덩이 빼기로 틈을 더욱 크게 벌린다. 그리고 재빨리 무릎을 상대 허리 깊숙이 밀어넣어 가드 자세를 취한다. 나의 경우는 무릎 넣는 타이밍에 문제가 있는지 허리를 빼앗기 전에 다시 사이드 마운트로 원상 복귀가 되어버린다. 초반 빈공간 만들때 체력 소모가 좀 큰게 단점인거 같다.
    - 공간 만들기 위해 몸을 좌우 브릿주 해주는게 포인트인 영상
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/1iZjnbCun0A" frameborder="0" allowfullscreen></iframe>
    - 빈틈을 만들기 위해 브릿지를 강조해주는 영상
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/kLAAIJNb4yY" frameborder="0" allowfullscreen></iframe>
    - 기본 외에 몇가지 응용이 있는 영상
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/9S3nDygvk6A" frameborder="0" allowfullscreen></iframe>
 2. 힙롤 이라고 하는거 같던데 1번보다 체력소모도 작고 효과도 확실한거 같다. 다만 삑사리 나면 백을 잡혀버리는 리스크가 있다. 몇번 시도했는데 아직 성공한적은 없다.
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/ygfnLjP6YQU" frameborder="0" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/78NAEI_Gzzw" frameborder="0" allowfullscreen></iframe>
 3. Elbo Push 라는데 안배워서 그냥 혼자 시도해봐야 겠음
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/bDVO9kXu5Lc" frameborder="0" allowfullscreen></iframe>
 4. 음 이건 색다른데?
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/VBT67Grv28k" frameborder="0" allowfullscreen></iframe>
 5. 그외, 참조하면 좋은 영상
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/1d-HZD_R08s" frameborder="0" allowfullscreen></iframe>
