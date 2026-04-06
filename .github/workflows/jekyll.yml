@@ -35,7 +35,8 @@ jobs:
           cd "$THEME_DIR"
           npm install
           npm run build
-          cp -r assets/js/dist $GITHUB_WORKSPACE/assets/js/dist
+          mkdir -p $GITHUB_WORKSPACE/assets/js/dist
+          cp -r assets/js/dist/* $GITHUB_WORKSPACE/assets/js/dist/
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
