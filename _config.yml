@@ -17,14 +17,29 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# 사이트 저자 정보
 author:
   name: "안병현"
 
+# 검색
 search: true
 search_full_content: true
 
+# 페이지네이션
 paginate: 10
 paginate_path: /page:num/
+
+# 목차(TOC) 기본 라벨
+toc_label: "목차"
+
+# 댓글 날짜 포맷
+date_format: "%Y-%m-%d"
+
+# 읽기 시간 분당 단어 수 (한국어는 낮게)
+words_per_minute: 200
+
+# breadcrumbs 네비게이션
+breadcrumbs: true
 
 include:
   - _pages
@@ -39,9 +54,22 @@ defaults:
     values:
       layout: single
       show_date: true
+      date_format: "%Y-%m-%d"
       read_time: true
+      words_per_minute: 200
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      comments: false
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   - scope:
       path: ""
     values:
