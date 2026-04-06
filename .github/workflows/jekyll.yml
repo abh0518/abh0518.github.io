@@ -20,6 +20,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build Chirpy JS
+        run: |
+          THEME_DIR=$(mktemp -d)
+          git clone --depth 1 --branch v5.6.1 https://github.com/cotes2020/jekyll-theme-chirpy.git "$THEME_DIR"
+          cd "$THEME_DIR"
+          npm install
+          npm run build
+          cp -r assets/js/dist $GITHUB_WORKSPACE/assets/js/dist
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -28,6 +44,7 @@ jobs:
           bundler-cache: true
 
       - name: Setup Pages
+        id: pages
         uses: actions/configure-pages@v5
 
       - name: Build with Jekyll
