@@ -1,7 +1,7 @@
 title: Time of Kairos
 description: "안병현의 블로그"
 baseurl: ""
-url: ""
+url: "https://abh0518.github.io"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
 encoding: utf-8
@@ -22,6 +22,8 @@ plugins:
 # 사이트 저자 정보
 author:
   name: "안병현"
+  email: abh0518@gmail.com
+  url: "https://abh0518.github.io"
 
 # Chirpy 테마 설정
 theme_mode: # light / dark (비워두면 시스템 설정 따름)
@@ -33,7 +35,9 @@ toc: true
 # 소셜 링크 (필요시 설정)
 social:
   name: 안병현
-  links: []
+  email: abh0518@gmail.com
+  links:
+    - https://github.com/abh0518
 
 # 페이지네이션
 paginate: 10
