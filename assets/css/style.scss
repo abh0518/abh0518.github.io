@@ -5,11 +5,16 @@ $tab-count: {{ site.tabs | size | plus: 1 }};
 
 @import "{{ site.theme }}";
 
-/* 코드 블록 줄바꿈 수정 - pre 태그 없이도 정상 표시 */
+/*
+  코드 블록 수정: Chirpy 테마가 <pre> 태그를 제거하므로
+  원래 .highlight pre에 적용되던 스타일을 .highlight > code에 적용
+*/
 div.highlight > code {
   display: block;
   white-space: pre;
+  word-wrap: normal;
   overflow-x: auto;
-  padding: 0.5rem 1rem;
-  line-height: 1.5;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
 }
