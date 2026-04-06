@@ -1,0 +1,8 @@
+title: tok
+description: "안병현의 블로그"
+baseurl: ""
+url: ""
+theme: minima
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+encoding: utf-8
