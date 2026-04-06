@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "pg_runner - Ruby용 Postresql Utility"
 date: 2013-04-09 22:17:22 +0900
 categories: [프로그래밍]

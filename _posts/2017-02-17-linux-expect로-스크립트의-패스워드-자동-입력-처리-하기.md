@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Linux expect로 script나 command에 패스워드 자동 입력 처리 하기"
 date: 2017-02-17 12:34:05 +0900
 categories: [프로그래밍]

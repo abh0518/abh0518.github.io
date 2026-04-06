@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Codility - CyclicRotation 문제 풀이 (난이도 : 하)"
 date: 2016-09-02 18:10:14 +0900
 categories: [알고리즘]

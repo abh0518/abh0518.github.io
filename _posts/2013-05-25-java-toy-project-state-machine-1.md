@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Java Toy Project - State Machine (1)"
 date: 2013-05-25 16:33:48 +0900
 categories: [프로그래밍]

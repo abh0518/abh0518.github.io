@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Ruby Daemon Process 만들기"
 date: 2013-04-24 11:24:56 +0900
 categories: [프로그래밍]

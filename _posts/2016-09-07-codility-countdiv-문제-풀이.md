@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Codility - CountDiv 문제 풀이 (난이도 : 하)"
 date: 2016-09-07 11:43:13 +0900
 categories: [알고리즘]

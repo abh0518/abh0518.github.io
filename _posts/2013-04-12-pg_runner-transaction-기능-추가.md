@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "pg_runner transaction 기능 추가..."
 date: 2013-04-12 20:25:42 +0900
 categories: [프로그래밍]

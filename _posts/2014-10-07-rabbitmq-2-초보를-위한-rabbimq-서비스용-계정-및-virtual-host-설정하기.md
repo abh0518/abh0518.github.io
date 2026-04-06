@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[RabbitMQ] 2. 초보를 위한 RabbitMQ 서비스용 계정 및 Virtual Host 설정하기"
 date: 2014-10-07 15:43:31 +0900
 categories: [IT기타]

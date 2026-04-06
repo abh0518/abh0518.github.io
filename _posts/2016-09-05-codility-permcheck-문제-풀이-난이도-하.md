@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Codility - PermCheck 문제 풀이 (난이도 : 하)"
 date: 2016-09-05 14:35:52 +0900
 categories: [알고리즘]

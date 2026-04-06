@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "주짓수 수련기 5 - X-Guard Sweep"
 date: 2016-10-04 18:11:02 +0900
 categories: [주짓수]

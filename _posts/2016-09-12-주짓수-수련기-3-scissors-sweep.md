@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "주짓수 수련기 3 - Scissors Sweep"
 date: 2016-09-12 13:16:52 +0900
 categories: [주짓수]

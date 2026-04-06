@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Codility - PermMissingElem 문제 풀이 (난이도 : 하)"
 date: 2016-09-05 14:05:44 +0900
 categories: [알고리즘]

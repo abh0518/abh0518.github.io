@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "[Rabbitmq] 1. 초보를 위한 RabbitMQ 후딱 설치하고 설정하기"
 date: 2014-10-06 18:02:05 +0900
 categories: [IT기타]

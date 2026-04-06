@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Redhat OpenShift 분석 중"
 date: 2013-10-18 16:07:53 +0900
 categories: [IT기타]

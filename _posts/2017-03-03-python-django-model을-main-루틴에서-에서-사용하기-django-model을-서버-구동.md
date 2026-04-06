@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Python, Django Model을 main 루틴에서 에서 사용하기(?), Django Model을 서버 구동 없이 사용하기(?)"
 date: 2017-03-03 15:37:37 +0900
 categories: [프로그래밍]

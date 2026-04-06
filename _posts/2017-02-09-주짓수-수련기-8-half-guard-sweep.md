@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "주짓수 수련기 8 – Half Guard Sweep"
 date: 2017-02-09 13:33:02 +0900
 categories: [주짓수]

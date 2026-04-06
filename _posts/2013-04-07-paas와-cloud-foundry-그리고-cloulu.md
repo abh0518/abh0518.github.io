@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Paas와 Cloud Foundry, 그리고 Cloulu"
 date: 2013-04-07 14:53:38 +0900
 categories: [그냥 사는 이야기]

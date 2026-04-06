@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Cloud Foundry Version 2, Bosh 설치 중 드는 생각........"
 date: 2013-06-07 15:38:06 +0900
 categories: [IT기타]

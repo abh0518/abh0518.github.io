@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "2013.10.13, Spring Camp, Cloud Foundry를 활용한 PaaS 구축기 발표, 소감"
 date: 2013-10-14 01:08:12 +0900
 categories: [IT기타]

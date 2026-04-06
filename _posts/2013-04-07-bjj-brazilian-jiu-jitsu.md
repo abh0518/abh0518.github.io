@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "BJJ - Brazilian jiu-jitsu"
 date: 2013-04-07 16:25:58 +0900
 categories: [건강과 생활체육]

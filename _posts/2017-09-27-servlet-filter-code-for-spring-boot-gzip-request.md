@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Servlet filter code for Spring-Boot Gzip request"
 date: 2017-09-27 13:30:55 +0900
 categories: [프로그래밍]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Codility - FrogRiverOne 문제 풀이 (난이도 : 하)"
 date: 2016-09-07 13:13:32 +0900
 categories: [알고리즘]
