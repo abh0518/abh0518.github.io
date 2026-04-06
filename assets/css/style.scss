@@ -17,4 +17,19 @@ div.highlight > code {
   margin-bottom: 0;
   font-size: 0.85rem;
   line-height: 1.4rem;
+  color: var(--highlighter-rouge-color);
+}
+
+/* 다크 모드: pre에 적용되던 텍스트 색상을 code에도 적용 */
+html[data-mode='dark'] div.highlight > code {
+  color: #bfbfbf;
+  background-color: var(--highlight-bg-color);
+}
+
+/* 시스템 다크 모드 감지 (data-mode 미설정 시) */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) div.highlight > code {
+    color: #bfbfbf;
+    background-color: var(--highlight-bg-color);
+  }
 }
