@@ -8,7 +8,7 @@ categories: [알고리즘]
 
 문제 유출은 안된다니 풀이만......
 
-```
+```java
 class Solution {
     public int[] solution(int[] A, int K) {
         // write your code in Java SE 8

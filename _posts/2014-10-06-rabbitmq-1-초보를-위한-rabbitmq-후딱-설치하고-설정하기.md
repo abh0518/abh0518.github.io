@@ -14,7 +14,7 @@ CloudFoundry의 Nats와 Apache ActiveMQ도 후보 중 하나였으나 난 왜 Ra
 좀 매니악한 개발자 코스프레좀 해볼까 하고 소스 부터 설치하려했다가 erlang부터 설치해야하는 귀찮니즘의 압박으로 결국 apt-get 느님의 도움을 받기로 함
 참고 페이지 : <https://www.rabbitmq.com/download.html>
 
-```
+```bash
 $>sudo apt-get install rabbitmq-server
 ```
 
@@ -23,7 +23,7 @@ $>sudo apt-get install rabbitmq-server
 설치가 완료 되면 terminal이 익숙치 않은 초보(?)를 위해 제공하는 Management Plugin도 활성화 시켜 놓자. 플러그인 설치 후에는 RabbitMQ를 restart 해주어야 변경 사항이 반영된다.
 참고 페이지 : <https://www.rabbitmq.com/management.html>
 
-```
+```bash
 $>sudo rabbitmq-plugins enable rabbitmq_management
 $>sudo service rabbitmq-server restart
 ```
@@ -32,7 +32,7 @@ $>sudo service rabbitmq-server restart
 
 처음 설치하면 guest 계정을 제공하기는 하는데 안타깝게도 localhost에서만 접속을 허용한다. 즉, 설치하자마자 Management Plugin의 유려한 UI로 막막 설정해보고 싶었지만 로그인 조차 안되는 난감함이 기다린다. 그러니 일단 RabbitMQ를 설치하고 난 뒤 바로 Terminal에서 관리자 계정을 설정해주도록 하자. 아래 예제에서는 관리자 계정을 rabbitmq로 설정했다.
 
-```
+```bash
 $>sudo rabbitmqctl add_user rabbitmq password
 $>sudo rabbitmqctl set_user_tags rabbitmq administrator
 ```

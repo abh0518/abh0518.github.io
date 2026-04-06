@@ -8,7 +8,7 @@ categories: [알고리즘]
 
 사이트에서 문제 복제 및 배포(publish)는 허가하지 않는다니 그냥 풀이만......
 
-```
+```java
 class Solution {
     
     public int solution(int N) {

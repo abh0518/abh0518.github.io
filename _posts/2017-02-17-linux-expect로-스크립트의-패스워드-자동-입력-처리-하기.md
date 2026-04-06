@@ -18,7 +18,7 @@ $ apt-get install expect # 간단하네! (맥은 brew....)
 패스워드 프롬프트가 뜨면 파라메터로 넘긴 패스워드를 입력하고
 ssh connect 연결 yes/not를 물어보는 프롬프트가 뜨면 yes를 입력해주는 예제
 
-```
+```bash
 $ vi auto_password.exp
 --------------------------
 #!/usr/bin/expect
@@ -43,7 +43,7 @@ $ chmod 755 auto_password.exp
 
 실행
 
-```
+```bash
 ./auto_password.exp $my_password
 ```
 
@@ -53,7 +53,7 @@ $ chmod 755 auto_password.exp
 
 ssh 자동 접속 후 terminal 작업을 해야할때는 마지막에 interact를 붙인다.
 
-```
+```bash
 #!/usr/bin/expect
 
 set timeout -1

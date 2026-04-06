@@ -6,7 +6,7 @@ categories: [프로그래밍]
 
 web-server를 별도로 사용하지 않고 부트로면 서비스 할때 Gzip request 지원을 하기 위한 서블릿 필터..
 
-```
+```java
 package net.abh0518.spring.boot.test.filter;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

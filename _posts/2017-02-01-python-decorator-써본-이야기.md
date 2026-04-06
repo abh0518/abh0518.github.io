@@ -10,7 +10,7 @@ categories: [프로그래밍]
 
 1. 이렇게 코딩하고 실행하면
 
-   ```
+   ```python
    # 얘가 데코레이터
    def decorator(func):
        def decorator(*args, **kwargs):
@@ -30,14 +30,14 @@ categories: [프로그래밍]
    ```
 2. 이런 결과가 나온다. 아! 신통방통 하다!
 
-   ```
+   ```text
    func before
    3
    func after
    ```
 3. @데코레이터는 사실 이거랑 같은 의미라고 한다
 
-   ```
+   ```python
    def decorator(func):
        def decorator(*args, **kwargs):
            print("%s %s" % (func.__name__, "before"))
@@ -58,7 +58,7 @@ categories: [프로그래밍]
 
 1. 데코레이터에 뭔가 파라메터를 전달하고 싶을데는 약간 복잡하긴 하지만 역시 다 된다! function을 감싸는 decorator를 다시 감싸주면 된다.
 
-   ```
+   ```python
    # 얘가 파라메터도 붙는 데코레이터
    def decorator_with_param(param):
        def wrapper(func):
@@ -80,7 +80,7 @@ categories: [프로그래밍]
    ```
 2. 결과는 이렇게 나온다!
 
-   ```
+   ```text
    hello, decorator!
    func before
    3
@@ -91,7 +91,7 @@ categories: [프로그래밍]
 
 1. 원랜 이렇게 나와야한다. 그래야 Swagger UI 같은애랑 붙일때 자동으로 문서화가 된다.
 
-   ```
+   ```python
    def func(x, y):
        """
        x와 y를 더합니다.
@@ -113,7 +113,7 @@ categories: [프로그래밍]
    ```
 2. 그런데 데코레이션을 붙이는 순강 망한다. \_\_doc\_\_이 안나온다. 실제로 django api application을 만들면서 api endpoint 메소드들을 decorator로 신나게 감쌌더니 Sweager UI에서 doc 처리하지 못해 공백 API 가이드만 한가득 나왔다.
 
-   ```
+   ```python
    def decorator(func):
        def decorator(*args, **kwargs):
            print("%s %s" % (func.__name__, "before"))
@@ -142,7 +142,7 @@ categories: [프로그래밍]
    <iframe width="560" height="315" src="https://www.youtube.com/embed/frEm8dftIoI" frameborder="0" allowfullscreen></iframe>
 4. 그렇다고 진짜 망한건 아니다. decorator에 @wraps 달아주면 모든것이 해결된다. 모든 decorator에는 반드시 @wraps를 달아주자. 그것이 모두가 행복해지는 길이다. 이유는 찾아보기 귀찮아서 생략. (대충 소스 보니 func의 \_\_doc\_\_ 같은 meta 정보를 wrapper에 복사해 넣는거 같은데 확실한건 아님!)
 
-   ```
+   ```python
    from functools import wraps
    
    # 파라메터 없는 데코레이터에도 @wraps 붙여주고
@@ -201,7 +201,7 @@ categories: [프로그래밍]
    ```
 5. 실행하니 잘 나오네!
 
-   ```
+   ```text
      x와 y를 더합니다.
     :param x:
     :param y:
@@ -227,7 +227,7 @@ categories: [프로그래밍]
 
 class로 만드는게 뭔가 낙타표기도 되고 그래서 뭔가 그 뭔가 멋져보이는거 같은데 여기엔 치명적인 단점이 있다. @wraps를 붙일수가 없다. 그나마 parameter를 가지는 데코레이터의 경우 \_\_call\_\_ 시점에서 wrapper를 만들면서 @wraps를 붙여줄수 있는데 parameter가 없는 데코레이터의 경우 wraps를 붙일 방법이 보이질 않는다. 이거 저거 찾아보니 결국 \_\_doc\_\_, \_\_name\_\_들을 복사해 넣는데 이럴거면 그냥 function으로 데코레이터 만들란다.
 
-```
+```python
 from functools import wraps
 
 # 그냥 Class 데코레이터, @wraps를 붙일만한데가 보이지 않는다.

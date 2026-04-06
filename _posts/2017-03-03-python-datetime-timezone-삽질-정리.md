@@ -13,7 +13,7 @@ java의 DateTime은 그냥 생성해도 로컬 타임존으로 설정이 되어�
 
 # Sampel Code
 
-```
+```python
 from datetime import timezone, timedelta, datetime
 
 timestamp = time.time()
@@ -49,7 +49,7 @@ print("dt.astimezone(7_timezone) => %s" % dt.astimezone(tz))
 
 # Result
 
-```
+```text
 # timestamp를 찍어본다.
 time.time() => 1488520605.554720 
 

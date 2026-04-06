@@ -6,7 +6,7 @@ categories: [알고리즘]
 
 # [Codility - OddOccurrencesInArray](https://codility.com/programmers/task/odd_occurrences_in_array/) 문제 풀이 (난이도 : 하)
 
-```
+```java
 // you can also use imports, for example:
 // import java.util.*;
 import java.util.*;

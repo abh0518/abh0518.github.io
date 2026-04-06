@@ -11,7 +11,7 @@ categories: [프로그래밍]
 1. 프로젝트의 gradle 버전 업데이트
    1. 프로젝트 root디렉토리의 build.gradle 파일 수정하여 gradle 버전을 1.5 이상으로 올려준다. 프로젝트를 module 단위로 관리할것 아니면 상관 없지만 그냥 기분으로라도 올려준다.
 
-      ```
+      ```groovy
       buildscript {
           repositories {
               jcenter()
@@ -26,7 +26,7 @@ categories: [프로그래밍]
    1. defaultConfig에 setProperty로 ouput 파일의 이름을 설정해준다. 파일 이름이 versionName과 versionCode가 추가되도록 하면 빌드 후 apk별 버전 관리가 쉬워진다.
    2. Flavor를 추가한다. dev, staging, product 세개의 Flavor로 나누가 각각 개발용, QA용, 상용 배포용 으로 나누어 빌드 할 수 있도록 한다. 대충 아래같은 느낌적 느낌.
 
-      ```
+      ```groovy
       apply plugin: 'com.android.application'
       
       android {
@@ -71,7 +71,7 @@ categories: [프로그래밍]
    1. Android Studio를 사용한다면 Build Variant 메뉴를 사용해서 빌드될 Flavor를 선택할 수 있다.
    2. Termianal사용시는 프로젝트 root에서 gradlew assemble${Flaver name}${BuildType} 명령으로 빌드할 수 있다.
 
-      ```
+      ```bash
       ./gradlew assembledevDebug //dev를 Debug로 빌드
       ./gradlew assemblestagingDebug //staging을 Debug로 빌드 
       ./gradlew assembleproductDebug //product를 Debug로 빌드
@@ -86,7 +86,7 @@ categories: [프로그래밍]
 2. 버전 관리를 위해 library module의 java source에 Version.java 를 추가해 준다. 이유는 Android Module을 빌드할때는 Application빌드와 달리 Gradle의 versionCode와 versionName 항목들이 무시되기 때문이다. 따라서 별도로 Version정보 클래스를 제공하지 않으면 Library를 사용하는 사람 입장에서 버전을 확일할 방법이 없어진다. 적당한 위치에 아래처럼 만들어주면 된다.
    1. 대충 이런 느낌
 
-      ```
+      ```java
       package net.abh0518.applibrary;
       
       public class Version {
@@ -100,7 +100,7 @@ categories: [프로그래밍]
    3. Flavor를 설정했다면 module의 resource 파일 설정도 Application때와 동일하게 설정해 준다.
    4. Library Module의 build.gradle은 대충 이런 느낌....
 
-      ```
+      ```groovy
       apply plugin: 'com.android.library'
       
       // Android Library 프로젝트는 그래들에서 제공하는 버전 코드와 버전 네임 항목을 무시하므로 버전 관리를 위해서 별도 파일 처리를 해준다.
@@ -166,12 +166,12 @@ categories: [프로그래밍]
    1. Studio에서 별도로 aar로 빌드하는 방법은 찾지 못했다. terminal에서 application을 빌드하면 aar은 무더기로 함께 빌드 되어 있었다. module만 따로 빌드하는 방법은 찾지 못했다. 빌드된 aar파일은  "projectRoot/$moduleDir/build/outputs/aar" 에 있다.
    2. Terminal에서 aar만 따로 빌드 할수 있긴 하다. "./gradlew :${moduleName}:aR" 명령으로 가능하다. aar파일 위치는 A와 동일.
 
-      ```
+      ```bash
       ./gradleW :app_library:aR
       ```
 5. 배포된 aar 사용하기, 사용하는 application의 gradle 설정을 아래처럼 하면 된다고 한다. (귀찮아서 테스트 안해봄)
 
-   ```
+   ```groovy
    dependencies {
        compile 'package.name.of.your.aar:myaar@aar'
    }
@@ -187,7 +187,7 @@ categories: [프로그래밍]
 
 1. 고객쪽에 Application dev, staging, product판과 Library Module dev, staging, product 판을 자주 전달해야하는데 매번 flavor 별로 따로 빌드하는게 귀찮다. project rootdptj shell로 그냥 한번에 끝내자. 대충 아래 느낌으로....
 
-   ```
+   ```bash
    #!/bin/bash
    
    //ouput 파일을 모아놓을 장소

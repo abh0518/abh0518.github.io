@@ -6,7 +6,7 @@ categories: [알고리즘]
 
 [Codility - FrogRiverOne](https://codility.com/programmers/task/frog_river_one/) 문제 풀이 (난이도 : 하)
 
-```
+```java
 class Solution {
     public int solution(int X, int[] A) {
         // write your code in Java SE 8

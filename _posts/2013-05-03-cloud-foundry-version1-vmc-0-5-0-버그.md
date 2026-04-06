@@ -7,7 +7,7 @@ categories: [IT기타]
 Cloud Foundry version 1을 사용하는 중에 이상한 현상이 발생했다.
 vmc로 java\_web Application을 push하면 아래와 같은 메세지가 뜨면서 앱이 아얘 업로드가 안된다.
 
-```
+```text
 Upload failed. Try again with 'vmc push'.
 TypeError: can't convert nil into String
 For more information, see ~/.vmc/crash

@@ -14,7 +14,7 @@ categories: [프로그래밍]
 1. DataHolder 클래스 생성 (둘중 뭐가 좋을지는 아직 잘 모르겠음)
    1. Application 클래스에 추가하거나....
 
-      ```
+      ```java
       public class MyApp extends Application {
           private Map<String, Object> mDataHolder = new ConcurrentHashMap<>();
           
@@ -35,7 +35,7 @@ categories: [프로그래밍]
       ```
    2. 별도의 DataHolder 스태틱 클래스를 추가하거나....
 
-      ```
+      ```java
       public class DataHolder {
           private static Map<String, Object> mDataHolder = new ConcurrentHashMap<>();
           
@@ -56,7 +56,7 @@ categories: [프로그래밍]
       ```
 2. 데이터를 보내는 측(대충 이런느낌으로?)
 
-   ```
+   ```java
    BigData bigData = .......;
    Intent intent = new Intent(....);
    String holderId = DataHolder.putDataHoler(bigData);
@@ -65,7 +65,7 @@ categories: [프로그래밍]
    ```
 3. 데이터를 받는 Activity (도 대충 이런 느낌으로)
 
-   ```
+   ```java
    String holderId = getIntent().getStringExtra("hoderId");
    BigData bigData = (BigData)DataHolder.popDataHolder(hoderId);
    ```

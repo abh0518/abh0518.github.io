@@ -10,7 +10,7 @@ categories: [IT기타]
 
 만드는 방법은 쉽다!
 
-```
+```bash
 $ mktemp -d  #리턴 값이 랜덤 디렉토리 path
 ```
 

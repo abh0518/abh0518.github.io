@@ -6,7 +6,7 @@ categories: [알고리즘]
 
 [Codility - MaxCounters](https://codility.com/programmers/task/max_counters/) 문제 풀이 (난이도:중)
 
-```
+```java
 // you can also use imports, for example:
 // import java.util.*;
 

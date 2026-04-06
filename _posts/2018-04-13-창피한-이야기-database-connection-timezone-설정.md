@@ -23,14 +23,14 @@ categories: [프로그래밍]
       1. MySQL경우 날짜 컬럼의 Type은 TIMESTAMP여야 한다. DATETIME으로 하면 제대로 작동하지 않는것 같다. 초 이하 단위까지 남기고 싶으면 TIMESTAME(3) 으로 밀리세컨드 혹은 그 이하 까지 기록할 수 있다.
       2. JAP Entity경우 아래와 같이 컬럼 설정을 제대로 맞춰주자. 뺏을 경우 어떻게 되는지 테스트 안해봄. 닥치고 매뉴얼에서 하라는대로 하자!
 
-         ```
+         ```java
          @Column(name = "log_time")
          @Temporal(TemporalType.TIMESTAMP)
          Date logTime;
          ```
    2. DataSource 설정
 
-      ```
+      ```java
       @Configuration
       public class DataSourceConfig {
       
@@ -59,14 +59,14 @@ Database마다 session timezone 설정 명령은 다르니 application.yml의 db
 
 * JPARepository : 당연히 잘된다. 한국 시간인 Application에서 현재 시간을 찍어보니면 Database에 UTC로 변환되에 들어가 있다.
 
-  ```
+  ```java
   public interface JpaLogRepository extends JpaRepository<MyLog, Long> {
       List<MyLog> retrieveDigestList(@Param("ownerId") Long ownerId);
   }
   ```
 * Custom Query : 넣는 데이터가 너무 많다 보니 JPARepository로 한건 한건 넣다가는 답이 나오지 않아서 그냥 Custom Query로 한번에 수십개씩 넣고 있다. 이런 경우에도 문제없이 잘 변환 되어 들어간다.
 
-  ```
+  ```java
   //이건 블로그를 위해 샘플로 만든거다. 내가 업무용으로 개발한거랑은 당연 다르다.
   @Repository
   public class BulkDataRepository {
