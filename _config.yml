@@ -8,10 +8,9 @@ encoding: utf-8
 
 lang: ko-KR
 
-remote_theme: "cotes2020/jekyll-theme-chirpy@v7.5.0"
+theme: jekyll-theme-chirpy
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
