@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Python, Decorator 써본 이야기"
 date: 2017-02-01 19:42:35 +0900
 categories: [프로그래밍]

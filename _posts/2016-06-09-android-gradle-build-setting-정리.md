@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Android Gradle Build Setting 정리"
 date: 2016-06-09 11:27:59 +0900
 categories: [프로그래밍]

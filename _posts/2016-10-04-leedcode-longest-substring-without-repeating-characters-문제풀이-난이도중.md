@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "LeedCode - Longest Substring Without Repeating Characters 문제풀이 (난이도:중)"
 date: 2016-10-04 17:24:24 +0900
 categories: [알고리즘]
