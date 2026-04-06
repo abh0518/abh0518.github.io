@@ -61,6 +61,11 @@ collections:
     output: true
     sort_by: order
 
+# HTML 압축 비활성화 (코드 블록 줄바꿈 보존)
+compress_html:
+  ignore:
+    envs: [production, development]
+
 exclude:
   - vendor
 
