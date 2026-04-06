@@ -1,0 +1,11 @@
+{% assign locale = include.locale | default: site.locale %}
+{% if paginator.total_pages > 1 %}
+  <div class="pagination-group">
+    {% if site.paginate %}
+      {% include paginator-v1.html locale=locale %}
+    {% elsif site.pagination.enabled %}
+      {% include paginator-v2.html locale=locale %}
+    {% endif %}
+    {% include paginator-jump.html %}
+  </div>
+{% endif %}
