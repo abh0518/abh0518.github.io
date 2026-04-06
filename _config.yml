@@ -64,7 +64,6 @@ defaults:
       toc_label: "목차"
       comments: false
       author_profile: true
-      classes: wide
   - scope:
       path: ""
       type: pages
