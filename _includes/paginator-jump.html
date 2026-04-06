@@ -1,10 +1,10 @@
 {% if paginator.total_pages > 1 %}
-<div class="paginator-jump" style="text-align: center; margin-top: 1em;">
-  <label for="page-jump-input" style="font-size: 0.85em;">
+<div class="paginator-jump">
+  <label for="page-jump-input">
     {{ paginator.page }} / {{ paginator.total_pages }} 페이지
   </label>
-  <input type="number" id="page-jump-input" min="1" max="{{ paginator.total_pages }}" placeholder="페이지 번호" style="width: 80px; padding: 4px 8px; font-size: 0.85em; border: 1px solid #ccc; border-radius: 4px;">
-  <button id="page-jump-btn" style="padding: 4px 12px; font-size: 0.85em; border: 1px solid #ccc; border-radius: 4px; cursor: pointer;">이동</button>
+  <input type="number" id="page-jump-input" min="1" max="{{ paginator.total_pages }}" placeholder="페이지 번호">
+  <button id="page-jump-btn">이동</button>
 </div>
 <script>
 (function() {
@@ -27,6 +27,13 @@
   input.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') jump();
   });
+
+  // DOM 재배치: paginator-jump를 pagination nav 바로 아래로 이동
+  var paginationNav = document.querySelector('nav.pagination');
+  var jumpDiv = document.querySelector('.paginator-jump');
+  if (paginationNav && jumpDiv) {
+    paginationNav.parentNode.insertBefore(jumpDiv, paginationNav.nextSibling);
+  }
 })();
 </script>
 {% endif %}
